@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="86c3cba4-3fa7-4db3-b25a-27ce4acffe5b">
+  <name>DistributionModelConstructor</name>
+  <synonym>
+    <key>ru</key>
+    <value>Distribution model constructor</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="c52cd3f9-3032-4299-bd51-972e089f3dd1"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="95b6ec33-6019-4a06-bcdc-0f96d56a9852"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="f26e75d7-f86b-4346-af7c-afcd294e71dc"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="ff0c1dc1-4106-4295-a43d-ec4391965670"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="c34d8899-bc06-4395-913c-59242c1d15b4"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="06a2f131-715e-4b9b-a710-a079aa62d2ea"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="1bf90a86-ce04-417b-b7b7-bb0b1b9bf175"/>
+  <namePrefix>ка_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.22</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <scriptVariant>Russian</scriptVariant>
+  <roles>Role.Расш1_ОсновнаяРоль</roles>
+</mdclass:Configuration>
