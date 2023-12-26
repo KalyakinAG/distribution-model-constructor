@@ -23,7 +23,6 @@
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <scriptVariant>Russian</scriptVariant>
   <subsystems>Subsystem.KASL</subsystems>
-  <roles>Role.Расш1_ОсновнаяРоль</roles>
   <commonModules>CommonModule.КонструкторМоделиРаспределенияМодель</commonModules>
   <dataProcessors>DataProcessor.КонструкторМоделиРаспределения</dataProcessors>
 </mdclass:Configuration>
