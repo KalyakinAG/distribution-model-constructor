@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="86c3cba4-3fa7-4db3-b25a-27ce4acffe5b">
-  <name>DistributionModelConstructor</name>
+  <name>КонструкторМоделиРаспределения</name>
   <synonym>
     <key>ru</key>
-    <value>Distribution model constructor</value>
+    <value>Конструктор модели распределения</value>
   </synonym>
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:ConfigurationExtension">
@@ -18,13 +18,24 @@
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="06a2f131-715e-4b9b-a710-a079aa62d2ea"/>
   <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="1bf90a86-ce04-417b-b7b7-bb0b1b9bf175"/>
   <namePrefix>KASL</namePrefix>
-  <configurationExtensionCompatibilityMode>8.3.22</configurationExtensionCompatibilityMode>
+  <configurationExtensionCompatibilityMode>8.3.23</configurationExtensionCompatibilityMode>
   <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <scriptVariant>Russian</scriptVariant>
-  <version>1.0.2.1</version>
-  <compatibilityMode>8.3.23</compatibilityMode>
+  <version>1.0.2.2</version>
+  <vendorInformationAddress>
+    <key>ru</key>
+    <value>https://infostart.ru/profile/16301/</value>
+  </vendorInformationAddress>
+  <configurationInformationAddress>
+    <key>ru</key>
+    <value>https://infostart.ru/1c/articles/1942685/</value>
+  </configurationInformationAddress>
   <subsystems>Subsystem.KASL</subsystems>
+  <styleItems>StyleItem.ИтогиФонГруппы</styleItems>
+  <styleItems>StyleItem.ЦветПодписи</styleItems>
+  <commonPictures>CommonPicture.ЗаполнитьФорму</commonPictures>
+  <commonPictures>CommonPicture.Структура</commonPictures>
   <commonModules>CommonModule.КонструкторМоделиРаспределенияМодель</commonModules>
   <dataProcessors>DataProcessor.КонструкторМоделиРаспределения</dataProcessors>
 </mdclass:Configuration>
