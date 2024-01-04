@@ -182,42 +182,4 @@
     </synonym>
     <templateType>TextDocument</templateType>
   </templates>
-  <templates uuid="260884ba-befa-4769-8ca2-0462d7a004ed">
-    <name>РаспределениеПоПорядку</name>
-    <synonym>
-      <key>ru</key>
-      <value>Распределение по порядку</value>
-    </synonym>
-  </templates>
-  <templates uuid="b1e870b3-9171-4c3b-a1c6-2481e98bd0f6">
-    <name>РаспределениеПоБазе</name>
-    <synonym>
-      <key>ru</key>
-      <value>Распределение по базе</value>
-    </synonym>
-    <templateType>TextDocument</templateType>
-  </templates>
-  <templates uuid="6ace9f08-d5ed-477b-82ba-cecc48b75d83">
-    <name>РаспределениеСОграничением</name>
-    <synonym>
-      <key>ru</key>
-      <value>Распределение с ограничением</value>
-    </synonym>
-    <templateType>TextDocument</templateType>
-  </templates>
-  <templates uuid="8f95eabf-4c87-4e44-8c07-6a46c5e20c75">
-    <name>Макет</name>
-    <synonym>
-      <key>ru</key>
-      <value>Макет</value>
-    </synonym>
-  </templates>
-  <templates uuid="aae2a63f-0c01-4a38-a9d2-763d3b3e43f6">
-    <name>МодельРаспределенияЧерезОтношение</name>
-    <synonym>
-      <key>ru</key>
-      <value>Модель распределения через отношение</value>
-    </synonym>
-    <templateType>TextDocument</templateType>
-  </templates>
 </mdclass:DataProcessor>

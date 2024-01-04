@@ -9,5 +9,5 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>DataProcessor.КонструкторМоделиРаспределения</content>
   <content>CommonModule.КонструкторМоделиРаспределенияМодель</content>
-  <parentSubsystem>Subsystem.KASL.Subsystem.Модели.Subsystem.МодельРаспределения</parentSubsystem>
+  <parentSubsystem>Subsystem.KASL.Subsystem.Конструкторы</parentSubsystem>
 </mdclass:Subsystem>
