@@ -23,6 +23,7 @@
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <scriptVariant>Russian</scriptVariant>
   <version>1.0.2.1</version>
+  <compatibilityMode>8.3.23</compatibilityMode>
   <subsystems>Subsystem.KASL</subsystems>
   <commonModules>CommonModule.КонструкторМоделиРаспределенияМодель</commonModules>
   <dataProcessors>DataProcessor.КонструкторМоделиРаспределения</dataProcessors>
