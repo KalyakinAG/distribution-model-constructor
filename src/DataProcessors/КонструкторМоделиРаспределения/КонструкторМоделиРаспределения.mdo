@@ -182,4 +182,12 @@
     </synonym>
     <templateType>TextDocument</templateType>
   </templates>
+  <templates uuid="505f6c53-2b69-4170-acba-8c39a8c512e2">
+    <name>СОграничениемБезОтношения</name>
+    <synonym>
+      <key>ru</key>
+      <value>С ограничением без отношения</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
 </mdclass:DataProcessor>

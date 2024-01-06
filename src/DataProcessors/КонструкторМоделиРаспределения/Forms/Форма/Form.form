@@ -169,7 +169,7 @@
           <id>331</id>
           <title>
             <key>ru</key>
-            <value>Использование отношения для таблиц с доп. ресурсами</value>
+            <value>Демонстрируется распределение по доп. ресурсам таблицы</value>
           </title>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -283,7 +283,7 @@
           <id>338</id>
           <title>
             <key>ru</key>
-            <value>Переопределение результата по дополнительной базе распределения</value>
+            <value>Переопределение результата по дополнительной базе распределения (сублимиты)</value>
           </title>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -397,7 +397,7 @@
           <id>345</id>
           <title>
             <key>ru</key>
-            <value>Результат с ограничением по сумме</value>
+            <value>Ограничение по сумме распределения</value>
           </title>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -451,6 +451,120 @@
         <extendedTooltip>
           <name>Группа1РасширеннаяПодсказка</name>
           <id>342</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualGroup</type>
+        <extInfo xsi:type="form:UsualGroupExtInfo">
+          <group>HorizontalIfPossible</group>
+          <behavior>Auto</behavior>
+          <showLeftMargin>true</showLeftMargin>
+          <throughAlign>Auto</throughAlign>
+          <currentRowUse>Auto</currentRowUse>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormGroup">
+        <name>Группа2</name>
+        <id>348</id>
+        <items xsi:type="form:Button">
+          <name>КомандаРезультатСОграничениемБезОтношения</name>
+          <id>350</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>КомандаРезультатСОграничениемБезОтношенияРасширеннаяПодсказка</name>
+            <id>351</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>UsualButton</type>
+          <commandName>Form.Command.КомандаРезультатСОграничениемБезОтношения</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <representationInContextMenu>Auto</representationInContextMenu>
+        </items>
+        <items xsi:type="form:Decoration">
+          <name>ДекорацияРезультатСОграничением1</name>
+          <id>352</id>
+          <title>
+            <key>ru</key>
+            <value>Ограничение по сумме распределения таблицы по базе</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ДекорацияРезультатСОграничением1РасширеннаяПодсказка</name>
+            <id>354</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ДекорацияРезультатСОграничением1КонтекстноеМеню</name>
+            <id>353</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <textColor xsi:type="core:ColorRef">
+            <color>Style.ЦветПодписи</color>
+          </textColor>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Группа1</value>
+        </title>
+        <extendedTooltip>
+          <name>Группа2РасширеннаяПодсказка</name>
+          <id>349</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1464,7 +1578,7 @@
     <name>КомандаОтношениеСДопРесурсами</name>
     <title>
       <key>ru</key>
-      <value>Отношение и доп.ресурсы</value>
+      <value>С отношением и с доп. ресурсами</value>
     </title>
     <id>14</id>
     <use>
@@ -1481,7 +1595,7 @@
     <name>КомандаРезультатСДопРаспределением</name>
     <title>
       <key>ru</key>
-      <value>Результат с доп. распределением</value>
+      <value>С ограничением по доп. базе</value>
     </title>
     <id>15</id>
     <use>
@@ -1498,7 +1612,7 @@
     <name>КомандаРезультатСОграничением</name>
     <title>
       <key>ru</key>
-      <value>Результат с ограничением</value>
+      <value>С ограничением через отношение</value>
     </title>
     <id>16</id>
     <use>
@@ -1507,6 +1621,23 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>КомандаРезультатСОграничением</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>КомандаРезультатСОграничениемБезОтношения</name>
+    <title>
+      <key>ru</key>
+      <value>С ограничением без отношения</value>
+    </title>
+    <id>17</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>КомандаРезультатСОграничениемБезОтношения</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
