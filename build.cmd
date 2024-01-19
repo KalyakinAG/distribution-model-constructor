@@ -1,1 +1,1 @@
-.\tools\cfe2cf.exe f .\bin\distribution-model-constructor.cfe КонструкторМоделиРаспределения .\bin\distribution-model-constructor.cf
+.\tools\cfe2cf.exe f .\bin\DistributionModelConstructor.cfe КонструкторМоделиРаспределения .\bin\DistributionModelConstructor.cf
