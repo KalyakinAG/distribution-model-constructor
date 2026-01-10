@@ -8,7 +8,6 @@
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:ConfigurationExtension">
     <defaultRunMode>Checked</defaultRunMode>
-    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
   </extension>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="c52cd3f9-3032-4299-bd51-972e089f3dd1"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="95b6ec33-6019-4a06-bcdc-0f96d56a9852"/>
@@ -18,7 +17,7 @@
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="06a2f131-715e-4b9b-a710-a079aa62d2ea"/>
   <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="1bf90a86-ce04-417b-b7b7-bb0b1b9bf175"/>
   <namePrefix>KASL</namePrefix>
-  <configurationExtensionCompatibilityMode>8.3.23</configurationExtensionCompatibilityMode>
+  <configurationExtensionCompatibilityMode>8.3.27</configurationExtensionCompatibilityMode>
   <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <scriptVariant>Russian</scriptVariant>
