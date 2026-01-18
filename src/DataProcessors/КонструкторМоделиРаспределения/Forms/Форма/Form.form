@@ -170,7 +170,7 @@
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <textColor xsi:type="core:ColorRef">
-            <color>Style.KASLЦветПодписи</color>
+            <color>Style.ЦветПодписи</color>
           </textColor>
           <extInfo xsi:type="form:LabelDecorationExtInfo">
             <horizontalAlign>Left</horizontalAlign>
@@ -264,7 +264,7 @@
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <textColor xsi:type="core:ColorRef">
-            <color>Style.KASLЦветПодписи</color>
+            <color>Style.ЦветПодписи</color>
           </textColor>
           <extInfo xsi:type="form:LabelDecorationExtInfo">
             <horizontalAlign>Left</horizontalAlign>
@@ -358,7 +358,7 @@
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <textColor xsi:type="core:ColorRef">
-            <color>Style.KASLЦветПодписи</color>
+            <color>Style.ЦветПодписи</color>
           </textColor>
           <extInfo xsi:type="form:LabelDecorationExtInfo">
             <horizontalAlign>Left</horizontalAlign>
@@ -452,7 +452,7 @@
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <textColor xsi:type="core:ColorRef">
-            <color>Style.KASLЦветПодписи</color>
+            <color>Style.ЦветПодписи</color>
           </textColor>
           <extInfo xsi:type="form:LabelDecorationExtInfo">
             <horizontalAlign>Left</horizontalAlign>
@@ -646,7 +646,7 @@
               <color>Style.FieldSelectionBackColor</color>
             </textColor>
             <backColor xsi:type="core:ColorRef">
-              <color>Style.KASLИтогиФонГруппы</color>
+              <color>Style.ИтогиФонГруппы</color>
             </backColor>
           </extInfo>
         </items>
@@ -1273,7 +1273,7 @@
       <common>true</common>
     </use>
     <picture xsi:type="core:PictureRef">
-      <picture>CommonPicture.KASLСтруктура</picture>
+      <picture>CommonPicture.Структура</picture>
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
