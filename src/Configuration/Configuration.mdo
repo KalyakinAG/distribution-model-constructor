@@ -16,12 +16,12 @@
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="c34d8899-bc06-4395-913c-59242c1d15b4"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="06a2f131-715e-4b9b-a710-a079aa62d2ea"/>
   <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="1bf90a86-ce04-417b-b7b7-bb0b1b9bf175"/>
-  <namePrefix>KASL</namePrefix>
+  <namePrefix>БКА_</namePrefix>
   <configurationExtensionCompatibilityMode>8.3.27</configurationExtensionCompatibilityMode>
   <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <scriptVariant>Russian</scriptVariant>
-  <version>1.0.2.2</version>
+  <version>1.2.0.1</version>
   <vendorInformationAddress>
     <key>ru</key>
     <value>https://infostart.ru/profile/16301/</value>
@@ -30,11 +30,7 @@
     <key>ru</key>
     <value>https://infostart.ru/1c/articles/1942685/</value>
   </configurationInformationAddress>
-  <subsystems>Subsystem.KASL</subsystems>
-  <styleItems>StyleItem.ИтогиФонГруппы</styleItems>
-  <styleItems>StyleItem.ЦветПодписи</styleItems>
-  <commonPictures>CommonPicture.ЗаполнитьФорму</commonPictures>
-  <commonPictures>CommonPicture.Структура</commonPictures>
+  <subsystems>Subsystem.КонструкторМоделиРаспределения</subsystems>
   <commonModules>CommonModule.КонструкторМоделиРаспределенияМодель</commonModules>
   <dataProcessors>DataProcessor.КонструкторМоделиРаспределения</dataProcessors>
 </mdclass:Configuration>

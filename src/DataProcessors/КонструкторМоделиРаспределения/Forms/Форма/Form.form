@@ -170,7 +170,7 @@
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <textColor xsi:type="core:ColorRef">
-            <color>Style.ЦветПодписи</color>
+            <color>Style.KASLЦветПодписи</color>
           </textColor>
           <extInfo xsi:type="form:LabelDecorationExtInfo">
             <horizontalAlign>Left</horizontalAlign>
@@ -207,32 +207,6 @@
       <items xsi:type="form:FormGroup">
         <name>Группа5</name>
         <id>334</id>
-        <items xsi:type="form:Button">
-          <name>КомандаРезультатСДопРаспределением</name>
-          <id>336</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <extendedTooltip>
-            <name>КомандаРезультатСДопРаспределениемРасширеннаяПодсказка</name>
-            <id>337</id>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <type>UsualButton</type>
-          <commandName>Form.Command.КомандаРезультатСДопРаспределением</commandName>
-          <representation>Auto</representation>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <placementArea>UserCmds</placementArea>
-          <representationInContextMenu>Auto</representationInContextMenu>
-        </items>
         <items xsi:type="form:Decoration">
           <name>ДекорацияРезультатСДопРаспределением</name>
           <id>338</id>
@@ -264,7 +238,7 @@
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <textColor xsi:type="core:ColorRef">
-            <color>Style.ЦветПодписи</color>
+            <color>Style.KASLЦветПодписи</color>
           </textColor>
           <extInfo xsi:type="form:LabelDecorationExtInfo">
             <horizontalAlign>Left</horizontalAlign>
@@ -358,11 +332,37 @@
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <textColor xsi:type="core:ColorRef">
-            <color>Style.ЦветПодписи</color>
+            <color>Style.KASLЦветПодписи</color>
           </textColor>
           <extInfo xsi:type="form:LabelDecorationExtInfo">
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
+        </items>
+        <items xsi:type="form:Button">
+          <name>КомандаРезультатСДопРаспределением</name>
+          <id>336</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>КомандаРезультатСДопРаспределениемРасширеннаяПодсказка</name>
+            <id>337</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>UsualButton</type>
+          <commandName>Form.Command.КомандаРезультатСДопРаспределением</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <representationInContextMenu>Auto</representationInContextMenu>
         </items>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -452,7 +452,7 @@
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <textColor xsi:type="core:ColorRef">
-            <color>Style.ЦветПодписи</color>
+            <color>Style.KASLЦветПодписи</color>
           </textColor>
           <extInfo xsi:type="form:LabelDecorationExtInfo">
             <horizontalAlign>Left</horizontalAlign>
@@ -646,7 +646,7 @@
               <color>Style.FieldSelectionBackColor</color>
             </textColor>
             <backColor xsi:type="core:ColorRef">
-              <color>Style.ИтогиФонГруппы</color>
+              <color>Style.KASLИтогиФонГруппы</color>
             </backColor>
           </extInfo>
         </items>
@@ -1273,7 +1273,7 @@
       <common>true</common>
     </use>
     <picture xsi:type="core:PictureRef">
-      <picture>CommonPicture.Структура</picture>
+      <picture>StdPicture.ListViewModeTree</picture>
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
